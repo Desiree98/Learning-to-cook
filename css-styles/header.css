@@ -1,5 +1,5 @@
 body{
-    background-image: url("../icons/seafood-wallpaper.jpg");
+    background-image: url("../icons/Seafood-wallpaper.jpg");
     background-size: cover;
     
 }
@@ -27,6 +27,7 @@ body{
         text-align: center;
         flex-shrink: 0;
         font-weight: 700;
+        font-style: oblique;
         padding-top: 1px;
         border-width: 1px;
         border-style: solid;
@@ -50,14 +51,36 @@ body{
         border-color: rgb(69, 69, 69);
         flex: 1;}
 
-
     .header-links{
 
         color: black;
         text-decoration: none;
+        font-style: italic;
+    }
+    .header-links:hover{
+        opacity:0.8;
+        color: rgb(74, 107, 239);
+    }
+    .header-links:active{
+        opacity:0.5;
+        color: rgb(238, 99, 29);
+        
+    }
+    .header-link-active{
+        color: rgb(238, 99, 29);
+        text-decoration: none;
+        font-weight: 700;
+        font-style: italic;
+    }
+    .header-link-active:hover{
+        opacity:0.8;
+        color: rgb(74, 107, 239);
+    }
+    .header-link-active:active{
+        opacity:0.9;
+        color: rgb(238, 99, 29);
 
     }
-
 
     .search-box{
         display:flex;
@@ -73,9 +96,7 @@ body{
         border-style: solid;
         border-width: 1px;
         border-radius: 4%;
-        border-color: rgb(98, 98, 98)
-        
-        
+        border-color: rgb(98, 98, 98)   
         
     }
 
@@ -101,6 +122,7 @@ body{
 
     .search-button:hover{
         opacity:0.5;
+        background-color:  rgb(74, 107, 239);
     }
 
     .logo{
@@ -137,7 +159,22 @@ body{
 
     }
     .Page-heading{
-        font-style: italic;
+        font-family:Gill Sans;
+        text-decoration: underline;
         text-align: center;
+        font-style: oblique;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+    }
+    .info-H{
+        padding-top: 40px;
+        font-size: small;
+        padding-left: 25px;
+    }
+    .page-info{
+        font-size: small;
+        padding-left: 25px;
+        padding-bottom:20px;
     }
 
