@@ -1,0 +1,43 @@
+.Page-heading{
+    font-style: italic;
+    text-align: center;
+}
+
+.Welcome-message{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.ct-heading{
+    font-size: large;
+    font-weight: 800;
+}
+.CT-IMGs{
+    width: 800px;
+    height: 600px;
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.tips{
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+.li{
+    margin-top: 2.6;
+    font-style: italic;
+   padding-bottom: 20px; 
+}
+.page-info{
+    padding-left: 25px;
+    padding-top: 20px;
+    
+}

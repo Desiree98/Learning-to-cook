@@ -11,6 +11,7 @@ body{
     border-width: 2px;
     border-style: solid;
     border-color: rgb(69, 69, 69);
+    border-radius: 5px;
     display:flex;
     flex-direction:row;
     justify-content: start;
@@ -30,6 +31,7 @@ body{
         border-width: 1px;
         border-style: solid;
         border-color: rgb(69, 69, 69);
+        border-radius: 5px;
         background-color:rgb(238, 99, 29);
         
     }
@@ -108,5 +110,34 @@ body{
         height: 20px;
         margin-right:100px;
         margin-top: 5px;
-        }
+    }
+
+    .nextpage-Button{
+       
+        background-color: rgb(238, 99, 29);
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        float: right;
+        
+    }   
+    
+    .previouspage-Button{
+       
+        background-color: rgb(238, 99, 29);
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        float: left;
+        
+    } 
+    .nextpage-text{
+        text-decoration: none;
+        color:black
+
+    }
+    .Page-heading{
+        font-style: italic;
+        text-align: center;
+    }
 
